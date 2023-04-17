@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(#a2d2ff,#EFB0C9);
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background-color: #a2d2ff;
+    color: #ffffff;
+}
+
+#pb {
+    border: solid 6px #EFB0C9;
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+}
+
+h1, h2, h3, p, h4 {
+    text-shadow: 0 0 3px black;
+}
+
+#bday-date {
+    margin: 0px;
+    background-color: #EFB0C9;
+    border-radius: 5px;
+    padding: 3px 12px 3px 12px;
+}
+
+
+#bday-age {
+    margin: 10px 0px 10px 0px;
+    background-color: #EFB0C9;
+    border-radius: 5px;
+    padding: 3px 12px 3px 12px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pressy {
+    margin: 0 auto;
+    border: solid white 4px;
+    border-radius: 6px;
+    background-size: cover;
+    height: 450px;
+    width: 450px;
+    background-image: url("images/present.jpg")
+}
+
+#pressy-happy:hover {
+    background-image: url("images/happy.webp");
+}
+
+#pressy-heart:hover {
+    background-image: url("images/heart.webp");
+}
+
+#pressy-badass:hover {
+    background-image: url("images/badass.webp");
+}
+
+#pressy-genius:hover {
+    background-image: url("images/genius.webp");
+}
+
+#pressy-cheers {
+    height: 275px;
+}
+
+#pressy-cheers:hover {
+    background-image: url("images/cheers.webp");
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
+    margin: 50px auto 25px;
+    font-size: 15px;
+}
+
+a {
+    color: white;
+}
